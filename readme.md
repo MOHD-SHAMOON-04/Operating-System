@@ -10,6 +10,4 @@ These include the following:
 
 ---
 
-#### Purpose
-
 These implementations are aimed at helping students and developers understand how fundamental operating system concepts are handled at the code level.
