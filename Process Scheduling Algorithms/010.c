@@ -2,6 +2,7 @@
 // find the avg turnaround time, waiting time, completion time and response time  for overall process. 
 
 #include <stdio.h>
+#define MAX 10
 
 struct Process {
     int pid;
@@ -24,7 +25,7 @@ int main() {
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
-    struct Process p[n];
+    struct Process p[MAX];
 
     for (int i = 0; i < n; i++) {
         printf("Enter Arrival Time and Burst Time for Process %d: ", i + 1);
